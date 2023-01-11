@@ -20,10 +20,6 @@ RUN pip install --upgrade pip && \
     pip install --upgrade notebook && \
     pip install --upgrade jupyterlab
 
-#テストユーザ追加
-RUN adduser --disabled-password --gecos "" test && \
-    echo test:test | chpasswd
-
 #設定ファイルをコピー
 COPY setting/opt/jupyterhub_docker_config.py /opt/jupyterhub_config.py
 
