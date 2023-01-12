@@ -35,6 +35,9 @@ or
 * Culler（接続の切れた docker コンテナを削除する）
 * Ltictr_Proxy
 
+## 修正予定項目
+* Dokcerfile dockerインストールをCLIのみにする
+
 ## 参考ページ
 [moodle+jupyterhub動作方法](https://www.nsl.tuis.ac.jp/xoops/modules/xpwiki/?Moodle%2BJupyterHub)  
 [configファイルのベース](https://gitlab.nsl.tuis.ac.jp/iseki/lticontainerspawner/-/blob/main/etc/jupyterhub_docker_config.py)  
