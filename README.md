@@ -32,7 +32,6 @@ or
 * 共有秘密鍵 .envファイルのLTI_SHARED_SECRET
 
 ## 未実装要素
-* Culler（接続の切れた docker コンテナを削除する）
 * Ltictr_Proxy
 
 ## 修正予定項目
