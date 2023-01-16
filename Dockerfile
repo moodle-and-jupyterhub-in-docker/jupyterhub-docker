@@ -18,7 +18,8 @@ RUN npm install -g configurable-http-proxy
 RUN pip install --upgrade pip && \
     pip install setuptools_rust jupyterhub dockerspawner oauthlib jupyterhub-ltiauthenticator && \
     pip install --upgrade notebook && \
-    pip install --upgrade jupyterlab
+    pip install --upgrade jupyterlab && \
+    pip install pycurl
 
 #設定ファイルをコピー
 COPY setting/opt/jupyterhub_docker_config.py /opt/jupyterhub_config.py
