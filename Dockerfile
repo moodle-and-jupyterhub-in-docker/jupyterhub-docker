@@ -24,6 +24,10 @@ RUN pip install --upgrade pip && \
 #設定ファイルをコピー
 COPY setting/opt/jupyterhub_docker_config.py /opt/jupyterhub_config.py
 
+#cullerオプションを有効化
+COPY setting/opt/cull_idle_servers.py /usr/local/bin
+RUN chmod a+rx /usr/local/bin/cull_idle_servers.py
+
 #起動に必要なファイルをコピー
 COPY setting/opt/start_jupyter.sh /opt/start_jupyter.sh
 COPY .env /opt/.env
