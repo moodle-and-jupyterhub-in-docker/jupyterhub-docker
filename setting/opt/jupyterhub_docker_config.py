@@ -1030,24 +1030,24 @@ c.Spawner.environment = {
 #
 # culler and admin-service
 #
-#c.JupyterHub.services = [
-#    # culler
-#    {
-#        'name': 'idle-culler',
-#        'admin': True,
-#        'command': [
-#            sys.executable,
-#            '/usr/local/bin/cull_idle_servers.py',
-#            '--timeout=1200'
-#        ],
-#    },
-#
-#    # admin-service
-#    {
-#        'name': 'admin-service',
-#        'api_token': '',    # at least 8 characters
-#    },
-#]
+c.JupyterHub.services = [
+    # culler
+    {
+        'name': 'idle-culler',
+        'admin': True,
+        'command': [
+            sys.executable,
+            '/usr/local/bin/cull_idle_servers.py',
+            '--timeout=1200'
+        ],
+    },
+
+    # admin-service
+    {
+        'name': 'admin-service',
+        'api_token': '',    # at least 8 characters
+    },
+]
 
 #
 # role of admin-service
