@@ -7,7 +7,7 @@ help() {
     引数なし : jupyterhubのみを起動する
     -h --help : このヘルプを表示
     -m --with-moodle : moodleも同時に起動（起動まで時間がかかります）
-    https://github.com/j19201/jupyterhub-docker/tree/include-moodle"
+    https://github.com/moodle-and-jupyterhub-in-docker/jupyterhub-docker"
 }
 with-moodle(){
     echo "jupyterhubとmoodleを起動します"
