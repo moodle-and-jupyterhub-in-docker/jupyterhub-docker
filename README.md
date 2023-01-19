@@ -42,7 +42,6 @@ or
 
 ## 修正予定項目
 * Dokcerfile dockerインストールをCLIのみにする
-* jupyterのconfigのCullerオプションを有効にする
 
 ## 参考ページ
 [moodle+jupyterhub動作方法](https://www.nsl.tuis.ac.jp/xoops/modules/xpwiki/?Moodle%2BJupyterHub)  
